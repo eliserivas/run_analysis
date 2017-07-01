@@ -66,6 +66,6 @@ names(data_m_std) <- gsub("[Aa]cc", "Acceleration", names(data_m_std))
 
 tidy <- data_m_std %>% group_by(Subject, Activity) %>% summarise_each(funs(mean))
 
-write.table(tidy, file = "C:/Users/elrivas/Documents/Trainings/JHU/Class3/Course Project/tidy.txt")
+write.table(tidy, file = "C:/Users/elrivas/Documents/Trainings/JHU/Class3/Course Project/tidy.txt", row.names = FALSE)
 
 

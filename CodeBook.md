@@ -12,15 +12,17 @@ All measurements are in Hz
 
 ## Files
 
-*'features_info.txt': Shows information about the variables used on the feature vector.
-*'features.txt': List of all features.
-*'activity_labels.txt': Links the class labels with their activity name.
-*'X_train.txt': Training data for the features
-*'y_train.txt': Training activity labels
-*'X_test.txt': Test data for the features
-*'y_test.txt': Test activity labels
-* 'subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-* 'subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+* features_info.txt: shows info about the variables in each feature vector
+* features.txt: list of all features
+* activity_labels.txt: links class labels with activity name
+* X_train: training data for the features
+* X_test: test data for the features
+* y_train: training activity labels associated with X_train
+* y_test: training activity labels associated with X_test
+* subject_train: each row is the subject who performed the activity noted in y_train, ranged 1-30
+* subject_test: each row is the subject who performed the activitty noted in y_test, ranged 1-30
+
+Train and test data is partitioned 70/30
 
 ### Final Data Derived
 * data_m_std
